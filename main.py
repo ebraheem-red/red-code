@@ -6,7 +6,7 @@ chats = {}
 
 
 genai.configure(api_key="AIzaSyBvofZTfRS1nZH8bWcNEf62F844wCs4v48")
-model = genai.GenerativeModel('gemini-pro', generation_config=genai.GenerationConfig(max_output_tokens=2000,temperature=0))
+model = genai.GenerativeModel('gemini-1.5-pro', generation_config=genai.GenerationConfig(max_output_tokens=2000,temperature=0))
 #chat = model.start_chat(history=[])
 
 def handle(msg):
